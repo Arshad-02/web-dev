@@ -1,0 +1,70 @@
+html {
+    background-color : purple;
+}
+
+body {
+    background-color: rgb(70, 68, 68);
+    margin: 0 auto;
+    width: 960px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+/* header */
+header{
+    height: 150px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header li:first-child{
+    border-right: 1px solid crimson;
+}
+
+#logo{
+    width: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.left{
+    width: 320px;
+    float: left;
+}
+
+.left ul{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.right{
+    width: 320px;
+    float: right;
+}
+
+.right ul{
+    float: right;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
